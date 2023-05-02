@@ -18,7 +18,7 @@ spec:
       hostNetwork: true
       containers:
       - name: aesmd
-        image: intel/sgx-aesmd-demo:devel
+        image: fortanix/aesmd
         securityContext:
           readOnlyRootFilesystem: true
           allowPrivilegeEscalation: false
