@@ -18,7 +18,7 @@ spec:
       hostNetwork: true
       containers:
       - name: aesmd
-        image: intel/aesmd:devel
+        image: registry.gitlab.com/haraldh/aesmd:devel  
         securityContext:
           readOnlyRootFilesystem: true
           allowPrivilegeEscalation: false
